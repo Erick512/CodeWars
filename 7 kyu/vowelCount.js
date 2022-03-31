@@ -29,7 +29,6 @@ function getCount(str) {
 
 // Cases
 
-
 console.log(getCount("abracadabra"))
 console.log(getCount("pear tree"))
 console.log(getCount("o a kak ushakov lil vo kashu kakao"))
