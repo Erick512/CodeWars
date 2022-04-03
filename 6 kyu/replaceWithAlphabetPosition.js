@@ -21,4 +21,6 @@ let textFiltered = text.toLowerCase().split('').filter(x => alphabet.includes(x)
 return textFiltered.map( x => alphabet.indexOf(x) + 1).join(' ')
 }
 
+// Test
+
 console.log(alphabetPosition("The sunset sets at twelve o' clock."))
