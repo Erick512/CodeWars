@@ -16,7 +16,7 @@ function stickyCalc (operation, val1, val2){
         case '*':
             return stickyNum * val2Round
         case '/':
-            return stickyNum / val2Round
+            return Math.round(stickyNum / val2Round)
     }
 }
 

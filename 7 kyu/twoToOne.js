@@ -7,6 +7,8 @@ function longest(s1, s2) {
     return  Array.from(new Set(s1.split('').concat(s2.split('')).sort())).join('')
 }
 
+// sample tests
+
 console.log(longest("aretheyhere", "yestheyarehere"))
 console.log(longest("loopingisfunbutdangerous", "lessdangerousthancoding"))
 console.log(longest("inmanylanguages", "theresapairoffunctions"))
