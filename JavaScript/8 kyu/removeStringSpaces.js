@@ -4,7 +4,7 @@ Simple, remove the spaces from the string, then return the resultant string.
 */
 
 function noSpace(x){
-    return x.split('').filter(x => x != ' ').join('')
+    return x.split(' ').join('')
 }
 
 // Sample tests
