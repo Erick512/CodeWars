@@ -1,5 +1,5 @@
 function rot13(message){
-    return message.split('').map((x, i) => x.charCodeAt(0))
+    return message.split('').map((x, i) => x.charCodeAt(0)) > 77
 }
 
 // .fromcharcode()
