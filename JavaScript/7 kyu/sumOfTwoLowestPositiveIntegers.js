@@ -8,7 +8,8 @@ For example, when an array is passed like [19, 5, 42, 2, 77], the output should 
 */
 
 function sumTwoSmallestNumbers(numbers) {  
-    return numbers.sort((a, b) => a-b)[0] + numbers.sort((a,b) => a-b)[1]
+    let numbersSorted = numbers.sort((a,b) => a-b)
+    return numbers[0] + numbers[1]
 }
 
 // Sample test
