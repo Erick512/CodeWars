@@ -6,13 +6,9 @@ By convention the value of 0! is 1.
 
 
 function factorial(n){
-    if(n < 0 || n > 12){
-        return RangeError('out of range')
-    } else if (n > 0) {
-        return [...Array(n).keys()].map((_, i) => i + 1).reduce((a, b) => a * b)
-    }
-
-    return 1
+    if(n < 0 || n > 12)
+        throw new RangeError()
+    return n <= 1 ? 1 : n * factorial(n - 1)
 }
 
 // test samples
