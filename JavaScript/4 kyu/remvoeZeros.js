@@ -9,40 +9,25 @@ function removeZeros(array) {
     // to use any Array or Object prototype methods such as .shift(), .push(), etc
     
     // the correctly sorted array should be returned.
-
-    if(array[4] == [ 1, '0', 2, 0, 52, '0', 7, 0, '3', 1 ][4]){
-        return [1,2,52,7,"3",1,"0",0,"0",0]
-    }
     
-    for(let i = 0; i < array.length; i++){
+    let last = array.length-1;
+  
+    for (let i = last; i >= 0; i--){
+      
+      if (array[i] === 0 || array[i] === '0'){
         
-        if(array[i] == 0){
-            for(let x = i + 1 ; x < array.length; x++){
-                if([array[x]] != '0'){
-                    console.log(array[x])
-                    let temp = array[x] // hold number
-                    array[x] = array[i]// replace number with zero
-                    array[i] = temp // replace zero with number
-                    break
-                }
-            }
+        for (let x = i; x < last; x++){
+          
+          if (array[x+1] === 0 || array[x+1] === '0' || x == last ){
+            break;
+          } else {
+            [array[x+1],array[x]] = [array[x],array[x+1]];
+          }
         }
-
-        if(array[i] === 0 && array[i + 1] === '0'){
-
-            console.log(array[i] , array[i + 1])
-
-            let temp = array[i] // hold number
-            array[i] = array[i + 1]// replace number with zero
-            array[i + 1] = temp // replace zero with number
-
-            i = 0
-        }
-
+      }
     }
-
-    return array
-  }
+    return array;
+}
 
   // example 
 
