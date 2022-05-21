@@ -6,4 +6,4 @@ function sumArray(array) {
 }
 
 // example
-console.log(sumArray([ 6, 2, 1, 8, 10 ]))
+console.log(sumArray([ 6, 2, 1, 8, 10 ])) 
