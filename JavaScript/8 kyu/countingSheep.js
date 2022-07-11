@@ -7,7 +7,7 @@ function countSheeps(arrayOfSheep) {
     return arrayOfSheep.filter(x => x == true).length    
 }
 
-// tests
+// test
 
 console.log(countSheeps([true,  true,  true,  false,
     true,  true,  true,  true ,
