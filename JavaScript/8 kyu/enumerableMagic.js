@@ -10,3 +10,4 @@ function take(arr, n) {
 //tests
 
 console.log(take([0 , 1, 2, 3, 5, 8, 13], 3))
+console.log(take([0 , 1, 2, 3, 5, 8, 13], 5))
