@@ -7,7 +7,7 @@ function between(a ,b) {
     return [...Array(b - a + 1).keys()].map((x, i) => x = a + i)
 }
 
-// tets
+// tests
 
 console.log(between(5, 10))
 console.log(between(1, 4))
