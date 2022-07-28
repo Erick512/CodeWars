@@ -12,3 +12,5 @@ function between(a ,b) {
 console.log(between(5, 10))
 console.log(between(1, 4))
 console.log(between(30, 48))
+console.log(between(30, 48))
+console.log(between(30, 38))
