@@ -1,1 +1,1 @@
-.reduce((a, b) => a + +Math.abs(b), 0)
+llest([1,2,3,4,5]))
