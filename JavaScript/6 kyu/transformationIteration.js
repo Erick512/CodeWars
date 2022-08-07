@@ -23,9 +23,11 @@ function transform(source, traget) {
     for(let i = 0; i < source.length; i++) {
         sourceCopy[i] = traget[i]
         console.log(sourceCopy)
+        arr.push(sourceCopy)
     }
 
-    return arr
+    return arr.map(x => x.join(''))
+
 }
 
 // Tests
