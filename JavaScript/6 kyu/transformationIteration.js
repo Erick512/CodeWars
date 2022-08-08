@@ -31,5 +31,6 @@ function transform(source, traget) {
 
 // Tests
 
+console.log(transform('lego', 'make'))
 console.log(transform('car', 'see'))
 console.log(transform('can', 'tea'))
