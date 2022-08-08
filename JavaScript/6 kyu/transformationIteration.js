@@ -17,13 +17,12 @@ return array
 // Code
 
 function transform(source, traget) {
-    let arr = []
+    let arr = Array(source.length)
     sourceCopy = source.split('')
 
     for(let i = 0; i < source.length; i++) {
         sourceCopy[i] = traget[i]
-        console.log(sourceCopy)
-        arr.push(sourceCopy)
+        arr[i] = sourceCopy
     }
 
     return arr.map(x => x.join(''))
@@ -33,3 +32,4 @@ function transform(source, traget) {
 // Tests
 
 console.log(transform('car', 'see'))
+console.log(transform('can', 'tea'))
