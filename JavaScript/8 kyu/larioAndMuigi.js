@@ -3,3 +3,4 @@ function pipeFix(numbers){
 }
 
 console.log(pipeFix([3,5,7,8]))
+console.log(pipeFix([5,7,12]))
