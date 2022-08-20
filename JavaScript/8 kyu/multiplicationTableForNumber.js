@@ -14,3 +14,4 @@ function multiTable(number) {
 // tests
 
 console.log(multiTable(5))
+console.log(multiTable(10))
