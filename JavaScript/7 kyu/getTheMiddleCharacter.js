@@ -14,4 +14,5 @@ function getMiddle(s) {
 
 console.log(getMiddle('ted'))
 console.log(getMiddle('brave'))
-console.log(getMiddle('late'))
+console.log(getMiddle('bravery'))
+console.log(getMiddle('later'))
