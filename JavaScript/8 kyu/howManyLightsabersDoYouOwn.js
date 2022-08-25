@@ -13,5 +13,9 @@ function howManyLightsabersDoYouOwn(name) {
 }
 
 console.log(howManyLightsabersDoYouOwn('Zach'))
+<<<<<<< HEAD
 console.log(howManyLightsabersDoYouOwn('Erick'))
 console.log(howManyLightsabersDoYouOwn('Tom'))
+=======
+console.log(howManyLightsabersDoYouOwn('Erick'))
+>>>>>>> 594747bc41a7ef678294c1a55ad5521830c8b896
