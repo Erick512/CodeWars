@@ -20,3 +20,4 @@ function switcheroo(x){
 
 console.log(switcheroo('abcd'))
 console.log(switcheroo('aabbbccdddd'))
+console.log(switcheroo('aabbbccd'))
