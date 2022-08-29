@@ -20,3 +20,4 @@ function maskify(cc) {
 
 console.log(maskify('123456'))
 console.log(maskify('123456234124'))
+console.log(maskify('dgahdas'))
