@@ -8,4 +8,6 @@ function fakeBin(x){
     return x.split('').map(x => x >= 5 ? '1' : '0').join('')
 }
 
+// tests
+
 console.log(fakeBin('123456789'))
