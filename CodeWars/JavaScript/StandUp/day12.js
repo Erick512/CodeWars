@@ -21,7 +21,7 @@ function arrayDiff(arr1, arr2) {
             i -= 1
         }
     }
-
+    
     return arr1
 }
 
