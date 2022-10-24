@@ -8,4 +8,6 @@ function nearestSqure(n) {
     return Math.pow((Math.round(Math.sqrt(n))), 2)
 }
 
+// tests
+
 console.log(nearestSqure(2))
