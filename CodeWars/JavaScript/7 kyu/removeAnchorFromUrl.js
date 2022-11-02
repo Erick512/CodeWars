@@ -6,5 +6,7 @@ function removeUrlAnchor(url) {
     return url
 }
 
+//  tests
+
 console.log(removeUrlAnchor('"www.codewars.com#about"'))
 console.log(removeUrlAnchor('www.codewars.com/katas/'))
