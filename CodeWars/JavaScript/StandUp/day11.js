@@ -24,6 +24,8 @@ function reveresedWords(string) {
         }
         return 1
     })
+
+    // return string.split(' ').sort((a, b) => a[-1] - b[-1])
    
 }
 
